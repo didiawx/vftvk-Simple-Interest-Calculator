@@ -15,14 +15,13 @@ font-family:verdana;
     width:600px;
     padding:20px;
     border-radius:25px;
-    padding-left:50px;
     align: center;
       
 }
 
 .spanResult{
     display:block;
-    padding:10px 0px 0px 0px;
+    padding:10px;
 }
 
 
