@@ -17,6 +17,10 @@ font-family:verdana
     align: center;
 }
 
+.sousdiv{
+    padding-left:50px;
+}
+
 .spanResult
 {
     display:block;
