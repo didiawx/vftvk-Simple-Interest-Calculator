@@ -25,9 +25,19 @@ font-family:verdana
     width: 500px;
 }
 
+.principal {
+ 
+    margin-inline: 59px;
+}
 
-
-
+.rate {
+ 
+    margin-inline: 23px;
+}
+.years {
+ 
+    margin-inline: 27px;
+}
 
 
 
