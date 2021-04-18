@@ -18,12 +18,9 @@ font-family:verdana;
     align: center;
 }
 
-.sousdiv{
-    
-     width: 50px;
+.sousdiv{  
+  width: 50px;
   height: 50px;
-  background-color: red;
-  /* Center vertically and horizontally */
   position: absolute;
   top: 50%;
   left: 50%;
