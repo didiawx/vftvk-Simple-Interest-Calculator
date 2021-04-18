@@ -11,8 +11,10 @@ function compute() {
 
 }
 
+
+
 function getSliderValue() {
-    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value;
+    document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value + "%";
 }
 
 function validateAmount() {
