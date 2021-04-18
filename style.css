@@ -1,15 +1,11 @@
-body 
-{
-    background-color:Black; 
-    color:white; 
-    font:arial;
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
 }
 
-h1
-{
-    color:grey; 
-    font:verdana;
-    font-size:25px;
+h1{color:grey;
+font-family:verdana
 }
 
 .maindiv {
@@ -18,6 +14,10 @@ h1
     padding:20px;
     border-radius:25px;
     align:center;
+}
+
+.sousdiv{
+    padding-left:50px;
 }
 
 .spanResult
