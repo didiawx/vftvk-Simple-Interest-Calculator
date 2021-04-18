@@ -27,7 +27,7 @@ function validateAmount() {
 
 function validateEmptyAmount() {
     var principal = document.getElementById("principal").value;
-    var empty = parseInt(s) || 0;
+    var empty = parseInt(principal) || 0;
     if (empt == "") {
         alert("Enter a positive number");
         return false;
