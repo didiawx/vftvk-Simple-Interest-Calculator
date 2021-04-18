@@ -20,8 +20,8 @@ text-align: center
 
 .sousdiv{
     
-    align: center;
-    margin:0 auto;
+    display: inline-block;
+    padding: 50px;
 }
 
 .spanResult{
@@ -29,11 +29,7 @@ text-align: center
     padding:10px 0px 0px 0px;
 }
 
-label
-    {
-    width:100px;
-    display: inline-block;
-    } 
+
 
 
 
