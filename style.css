@@ -9,14 +9,12 @@ h1
 {
     color:grey; 
     font:verdana;
-    text-align: center;
     font-size:25px;
 }
 
 .maindiv 
 { 
     text-indent: 10px;
-    margin:0 auto;
     background-color:white; 
     color:Black; 
     font:arial;
