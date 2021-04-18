@@ -8,12 +8,13 @@ h1{color:grey;
 font-family:verdana
 }
 
-.maindiv {
+.maindiv{
     background-color:white;
-    color:500px;
+    color:black;
+    width:600px;
     padding:20px;
     border-radius:25px;
-    align:center;
+    align: center;
 }
 
 .sousdiv{
