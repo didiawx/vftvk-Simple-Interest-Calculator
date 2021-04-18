@@ -3,6 +3,7 @@ function compute() {
     if (!(validateAmount)){
         return;
     }
+    
     var principal = parseFloat(document.getElementById("principal").value);
     var rate = parseFloat(document.getElementById("rate").value);
     var years = parseInt(document.getElementById("years").value);
