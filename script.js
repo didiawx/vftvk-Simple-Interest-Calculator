@@ -30,9 +30,9 @@ function validateAmount() {
         return false;
     }
 
-    var checkPricipal = parseInt(principal);
+    var checkPrincipal = parseInt(principal);
 
-    if (checkPricipal<=0){
+    if (checkPrincipal<=0){
         alert("Enter a positive number.");
         document.getElementById("principal").focus()
         return false;
