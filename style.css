@@ -14,11 +14,10 @@ h1
 
 .maindiv {
     background-color:white;
-    color:black;
-    width:700px;
+    color:500px;
     padding:20px;
     border-radius:25px;
-    align:center
+    align:center;
 }
 
 .spanResult
