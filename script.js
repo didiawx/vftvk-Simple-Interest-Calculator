@@ -27,10 +27,10 @@ function validateAmount() {
 
 function validateEmptyAmount() {
     var principal = document.getElementById("principal").value;
-    var empty = parseInt(principal) || 0;
-    if (empt == "") {
+    var empty = parseInt(principal);
+    if (empty === undefined || empty == null || empty.length <= 0) {
         alert("Enter a positive number");
-        return false;
+        //return false;
     }
 
 }
