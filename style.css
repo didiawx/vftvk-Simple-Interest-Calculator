@@ -5,7 +5,8 @@ body {
 }
 
 h1{color:grey;
-font-family:verdana
+font-family:verdana;
+text-align: center
 }
 
 .maindiv{
@@ -20,6 +21,7 @@ font-family:verdana
 .sousdiv{
     
     align: center;
+    margin:0 auto;
 }
 
 .spanResult{
