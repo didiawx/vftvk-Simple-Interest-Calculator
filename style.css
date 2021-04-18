@@ -6,7 +6,7 @@ body {
 
 h1{color:grey;
 font-family:verdana;
-text-align: center
+
 }
 
 .maindiv{
@@ -21,7 +21,7 @@ text-align: center
 .sousdiv{
     
     display: inline-block;
-    padding: 50px;
+    padding: 100px;
 }
 
 .spanResult{
