@@ -8,17 +8,22 @@ h1{color:grey;
 font-family:verdana
 }
 
+
+
 .maindiv{
     background-color:white;
     color:black;
     width:600px;
-    padding:20px;
+    padding:30px;
     border-radius:25px;
     align: center;
 }
 
+.innerdiv{
 
-
+    margin: 0 auto;
+    width: 500px;
+}
 
 
 
