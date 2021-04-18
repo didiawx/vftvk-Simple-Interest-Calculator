@@ -17,20 +17,12 @@ function getSliderValue() {
 
 function validateAmount() {
     var principal = document.getElementById("principal").value;
-    var checkPrincipal = parseInt(principal) > 0;
-    if (!checkPrincipal) {
+    var checkPrincipal = parseInt(principal) > 0 ;
+   
+    if (!checkPrincipal || principal == "") {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
     }
 
 }
 
-function validateEmptyAmount() {
-    var principal = document.getElementById("principal").value;
-    var empty = parseInt(principal);
-    if (empty === undefined || empty == null || empty.length <= 0) {
-        alert("Enter a positive number");
-        //return false;
-    }
-
-}
