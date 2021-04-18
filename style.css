@@ -1,35 +1,31 @@
-body 
-{
-background-color:Black; 
-color:white; 
-font:arial;
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
 }
 
-h1
-{
-color:grey; 
-font:verdana;
-text-align: center;
-font-size:25px;
+h1{color:grey;
+font-family:verdana
 }
 
-.maindiv 
-{ 
-text-indent: 10px;
-margin:0 auto;
-background-color:white; 
-color:Black; 
-font:arial;
-width:300px;
-padding:20px;
-border-radius:25px;
+.maindiv{
+    background-color:white;
+    color:black;
+    width:600px;
+    padding:20px;
+    border-radius:25px;
+    align: center;
 }
 
-label
-{
-width:100px;
-display: inline-block;
-} 
+.spanResult{
+    display:block;
+    padding:10px 0px 0px 0px;
+}
+
+
+
+
+
 
 
 
