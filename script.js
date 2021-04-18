@@ -1,6 +1,6 @@
 function compute() {
     
-    if (!(validateAmount()){
+    if (!validateAmount()){
         return;
     }
     
