@@ -1,11 +1,35 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
- 
-.maindiv{
-    background-color: white;
-    color: black;
-    width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    margin: auto;
+body 
+{
+background-color:Black; 
+color:white; 
+font:arial;
 }
+
+h1
+{
+color:grey; 
+font:verdana;
+text-align: center;
+font-size:25px;
+}
+
+.maindiv 
+{ 
+text-indent: 10px;
+margin:0 auto;
+background-color:white; 
+color:Black; 
+font:arial;
+width:300px;
+padding:20px;
+border-radius:25px;
+}
+
+label
+{
+width:100px;
+display: inline-block;
+} 
+
+
+

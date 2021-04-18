@@ -1,4 +1,5 @@
 function compute() {
+
     var principal = parseFloat(document.getElementById("principal").value);
     var rate = parseFloat(document.getElementById("rate").value);
     var years = parseInt(document.getElementById("years").value);
@@ -11,20 +12,29 @@ function compute() {
 
 }
 
-
-
 function getSliderValue() {
+
     document.getElementById("rateSpan").innerHTML = document.getElementById("rate").value + "%";
 }
 
 function validateAmount() {
+
     var principal = document.getElementById("principal").value;
-    var checkPrincipal = parseInt(principal) > 0 ;
-   
-    if (!checkPrincipal || principal == "") {
-        alert("Enter a positive number");
-        document.getElementById("principal").focus();
+
+    if (principal.trim() == ""){
+        alert("Enter a valid number.");
+        document.getElementById("principal").focus()
+        return false;
     }
 
+    var checkPricipal = parseInt(principal);
+
+    if (checkPricipal<=0){
+        alert("Enter a positive number.");
+        document.getElementById("principal").focus()
+        return false;
+    }
+
+    return true;
 }
 
