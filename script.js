@@ -24,3 +24,12 @@ function validateAmount() {
     }
 
 }
+
+function validateEmptyAmount() {
+    var principal = document.getElementById("principal").value;
+    if (principal == "") {
+        alert("Enter a positive number");
+        document.getElementById("principal").focus();
+    }
+
+}
