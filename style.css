@@ -1,20 +1,28 @@
-body {
-    background-color:black;
-    font-family:arial;
-    color:white;
+body 
+{
+    background-color:Black; 
+    color:white; 
+    font:arial;
 }
 
-h1{color:grey;
-font-family:verdana
+h1
+{
+    color:grey; 
+    font:verdana;
+    text-align: center;
+    font-size:25px;
 }
 
-.maindiv{
-    background-color:white;
-    color:black;
-    width:600px;
+.maindiv 
+{ 
+    text-indent: 10px;
+    margin:0 auto;
+    background-color:white; 
+    color:Black; 
+    font:arial;
+    width:300px;
     padding:20px;
     border-radius:25px;
-    align: center;
 }
 
 .spanResult
